@@ -2,7 +2,7 @@ name: Feature Branch Integration
 
 on:
   pull_request:
-    branches: ['ci-test']
+    branches: ['main']
 
 jobs:
   commit-lint:
